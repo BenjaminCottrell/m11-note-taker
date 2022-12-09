@@ -47,4 +47,4 @@ notes.delete('/:id', (req, res) => {
   });
 
 // export notes to be required in index  
-modules.exports = notes;
+module.exports = notes;
